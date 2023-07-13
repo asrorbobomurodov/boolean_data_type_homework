@@ -7,4 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a**(1/2)%1==0
+print(main(121))
+print(main(30))
